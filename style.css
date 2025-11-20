@@ -1,0 +1,219 @@
+/* Gaya Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ======================== HEADER/NAVBAR ======================== */
+header {
+    background-color: #5d9cec; /* Warna Biru Thrifting */
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Warna Emas untuk Hover */
+}
+
+/* ======================== SEKSI UMUM ======================== */
+section {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+h2 {
+    color: #5d9cec;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+/* ======================== HOME/HERO ======================== */
+.hero {
+    background-color: #a4c6ff;
+    color: #333;
+    padding: 100px 5%;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e55c70; /* Warna Merah Muda */
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c44a5e;
+}
+
+/* ======================== ABOUT US (PROFIL BISNIS & VISI MISI) ======================== */
+.about-us {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+
+.profil-bisnis, .visi-misi {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.visi-misi ul {
+    list-style: none;
+    padding: 0;
+}
+
+.visi-misi ul li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #5d9cec;
+}
+
+/* ======================== SERVICES ======================== */
+.services {
+    background-color: #f9f9f9;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+}
+
+/* ======================== KATALOG GALERI PRODUK ======================== */
+.product-gallery {
+    background-color: white;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-item {
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.product-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-item h4 {
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+.product-item p {
+    color: #e55c70;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    background-color: #5d9cec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #4a7dd4;
+}
+
+/* ======================== FOOTER ======================== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 5%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #5d9cec;
+}
