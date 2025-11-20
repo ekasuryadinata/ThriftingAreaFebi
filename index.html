@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thrifting Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #222;
+        padding: 15px 0;
+      }
+      header nav {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+      header nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .hero {
+        padding: 70px;
+        text-align: center;
+        background: #f5f5f5;
+      }
+      .section {
+        padding: 60px 40px;
+      }
+      .container {
+        max-width: 1100px;
+        margin: auto;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .produk-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .produk-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        background: white;
+      }
+      .produk-card img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      footer {
+        background: #222;
+        color: white;
+        padding: 30px;
+        text-align: center;
+      }
+      footer a {
+        color: #00c8ff;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#produk">Produk</a>
+        <a href="#shop">Shop</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Welcome to Our Thrifting Area Febi</h1>
+      <p>“Fashion Keren, Harga Hemat, Ramah Lingkungan”</p>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Menyediakan berbagai jenis pakaian seperti kaos, hoodie, jaket, celana, dan fashion vintage yang dikurasi secara langsung. Setiap produk dipilih, dibersihkan, dan diperbaiki agar siap dipakai kembali sehingga memberikan nilai
+          lebih bagi pelanggan dengan harga yang tetap terjangkau. Dengan konsep sustainable fashion, Area Febi membantu mengajak anak muda untuk tampil stylish sambil mendukung gerakan ramah lingkungan.
+        </p>
+        <h3>Visi</h3>
+        <p>Menyediakan pilihan fashion thrift yang berkualitas, terjangkau, dan ramah lingkungan agar masyarakat dapat tampil percaya diri dengan gaya unik mereka.</p>
+        <h3>Misi</h3>
+        <ul>
+          <li>Menyediakan koleksi fashion berkualitas dengan harga terjangkau.</li>
+          <li>Menghadirkan pengalaman belanja unik baik secara online maupun offline.</li>
+          <li>Mendukung kesadaran masyarakat terhadap eco-friendly lifestyle.</li>
+          <li>Memberdayakan generasi muda untuk tampil percaya diri tanpa harus mahal.</li>
+          <li>Memberikan harga yang terjangkau bagi semua kalangan, khususnya pelajar dan mahasiswa.</li>
+          <li>Mengembangkan penjualan melalui social commerce terutama Facebook Marketplace dan sosial media.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="produk" class="section">
+      <div class="container">
+        <h2>Produk Kami</h2>
+        <div class="produk-grid">
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0041.jpg" alt="Produk 1" />
+            <h4>Produk Fashion 1</h4>
+          </div>
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0042.jpg" alt="Produk 2" />
+            <h4>Produk Fashion 2</h4>
+          </div>
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0043.jpg" alt="Produk 3" />
+            <h4>Produk Fashion 3</h4>
+          </div>
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0046.jpg" alt="Produk 4" />
+            <h4>Produk Fashion 4</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="container">
+        <h2>Shop</h2>
+        <p>Belanja berbagai item fashion favoritmu dengan harga terbaik!</p>
+        <div class="produk-grid">
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0038.jpg" alt="Item Shop 1" />
+            <h4>Fashion celana 1</h4>
+            <p>Rp 110.000</p>
+          </div>
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0039.jpg" alt="Item Shop 2" />
+            <h4>Fashion celana 2</h4>
+            <p>Rp 120.000</p>
+          </div>
+          <div class="produk-card">
+            <img src="assets/IMG-20251118-WA0040.jpg" alt="Item Shop 3" />
+            <h4>Fashion celana 3</h4>
+            <p>Rp 110.000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <div class="container">
+        <h2>Kontak Kami</h2>
+        <p>
+          Hubungi kami untuk pemesanan dan informasi lebih lanjut, dibawah ini <br />
+          <b>Facebook</b> : Area Febi <br />
+          <b>Whatsapp</b> : 082221127007 <br />
+          <b>Instagram</b> : Area Febi
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hubungi kami melalui:</p>
+      <a href="https://www.facebook.com/share/1CxtbTr4x4/?mibextid=wwXIfr">Facebook</a> | <a href="https://api.whatsapp.com/send/?phone=6282221127007&text&type=phone_number&app_absent=0&wame_ctl=1">WhatsApp </a> |
+      <a href="https://www.instagram.com/areabelanjathrift?igsh=MW00bDk4anpxaGgyeQ==">Instagram</a>
+
+      <p>&copy; 2025 Thrifting Store. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
